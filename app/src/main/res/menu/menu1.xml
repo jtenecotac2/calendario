@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/primer"
+            android:title="Año"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/segu"
+            android:title="Mes"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/terce"
+            android:title="Semana"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/cuar"
+            android:title="Dia"/>
+        <item
+            android:id="@+id/menu_seccion_5"
+            android:icon="@drawable/qui"
+            android:title="Reminder"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/sext"
+                android:title="Mi telefono"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/sep"
+                android:title="Samsung account"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/oct"
+                android:title="Google"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/oct"
+                android:title="Google"
+                android:titleCondensed="Google"/>
+
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/ic_menu"
+                android:title="Eventos de aplicaciones"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader2"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_6"
+                android:icon="@drawable/dec"
+                android:title="Papelera"/>
+            <item
+                android:id="@+id/menu_opcion_7"
+                android:icon="@drawable/oce"
+                android:title="Sicronizar ahora"/>
+
+        </menu>
+    </item>
+</menu>
